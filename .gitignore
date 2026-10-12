@@ -1,0 +1,14 @@
+.DS_Store
+._*
+__pycache__/
+*.pyc
+.local-backups/
+*.log
+opencore-*.txt
+com.apple.recovery.boot/
+NullMoth/current/
+NullMoth/*.zip
+NullMoth/*.tar.gz
+*.dmg
+*.chunklist
+dist/

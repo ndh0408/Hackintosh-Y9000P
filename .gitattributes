@@ -1,0 +1,2 @@
+# Keep firmware, plist and manifest bytes identical across platforms.
+* -text

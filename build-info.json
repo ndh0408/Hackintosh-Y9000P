@@ -1,0 +1,20 @@
+{
+  "project": "Kayn Hackintosh Y9000P",
+  "snapshot_date": "2026-10-12",
+  "public_default_profile": "installer",
+  "smbios_model": "MacBookPro16,2",
+  "identity": "placeholder; personalize before boot",
+  "bootloader": "retained custom snapshot; exact upstream version unconfirmed",
+  "validated_config_schema": "OpenCore 1.0.3",
+  "driver_current": "1.14.0",
+  "driver_archived": "1.0.11",
+  "companion_archived": "1.0.18",
+  "runtime_boot_test": "not performed after edits",
+  "branding_scan_matches": 0,
+  "recovery_scan": "raw DMG container only; internal filesystem not mounted",
+  "primary_language": "en",
+  "languages": [
+    "en",
+    "vi"
+  ]
+}

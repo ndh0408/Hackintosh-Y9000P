@@ -1,0 +1,404 @@
+{
+  "acpi_fingerprints": [
+    {
+      "sha256": "54e38b844706b8b09a022ecea5a15fe449c4435fd274bf551360410c17001549",
+      "signature": "APIC",
+      "size": 476
+    },
+    {
+      "sha256": "36de3836d71275261d3df71f0c41efebaef0e1c264010a7717b874939238ae1d",
+      "signature": "DSDT",
+      "size": 606058
+    }
+  ],
+  "board": "LENOVO LNVNB161216",
+  "chipset": "HM770",
+  "cpu": "Intel(R) Core(TM) i9-14900HX",
+  "cpu_codename": "Raptor Lake-HX",
+  "cpu_vendor": "intel",
+  "disabled_devices": {
+    "Sound: NVIDIA High Definition Audio (MAG 274QF X32)": "10DE-00A7"
+  },
+  "efi_sha256": {
+    "BOOT/.contentFlavour": "5546c5dcc63bda3b1a8a4a732c69fd6fa645cb2b31b16f18e62453318104f3b7",
+    "BOOT/.contentVisibility": "75081b593d15cf6e631971bc6768723f593b88b172477e40ae7d363e4829816d",
+    "BOOT/BOOTx64.efi": "dae2434df445348d441237591b779e703df9af88fe63387074a61c0280f39224",
+    "OC/.contentFlavour": "5546c5dcc63bda3b1a8a4a732c69fd6fa645cb2b31b16f18e62453318104f3b7",
+    "OC/ACPI/SSDT-EC.aml": "4bfab6cb576daa492f7ac83d66525813c95d920b21900db992a80a7c64352f6b",
+    "OC/ACPI/SSDT-GPI0.aml": "8602942069a920c2e30286f79840bf33196cf614905104dfb56d2744f7f717a4",
+    "OC/ACPI/SSDT-Kayn.aml": "25fef9fd55e29d1eb97a942adc8978f4354d5133a171c8ccd7c389b9e91e9808",
+    "OC/ACPI/SSDT-MCHC.aml": "79a58ef8c46949b669fe591dfa869f15fb7d310c99e0e69e866b5c9e33848f42",
+    "OC/ACPI/SSDT-PLUG-ALT.aml": "9ee515810693c6f7a5baa35f28cd1f0579a47d8b5e8f1efe898e9d6a31adcf2a",
+    "OC/ACPI/SSDT-RTCAWAC.aml": "4da801f5121a26c396940bf2e20ed95f856bdab95fd22016985298d106669d29",
+    "OC/ACPI/SSDT-SBUS.aml": "685c206d4b2e2bd36edc5153092c03199cf3fa9ded5329db06c521f2756dfbfe",
+    "OC/ACPI/SSDT-USB-Reset.aml": "d5325a3fcf603ad33dee28b2de5928aaddabd23e211beb72686f6e49120c11d1",
+    "OC/ACPI/SSDT-USBX.aml": "a295f9f862ba6ee27e962d0477e7703d44a592b37f0dce5ae997605e819714a0",
+    "OC/ACPI/SSDT-XOSI.aml": "862c7e74a1d6464f6f8e0a6ec4cb0935b71e7c75f52926e8a333bd5b00a75813",
+    "OC/config.plist": "ce60917b477ba3a70c664912ecddcd63a4204a7bfb64b950842cf20a830b6996",
+    "OC/Drivers/HfsPlus.efi": "a55b5fff36578864ba6792c4c6369c71f6f35b61dd5a853ddf8583cd36c31d8f",
+    "OC/Drivers/OpenCanopy.efi": "842cb55efcfb9212ca9f1beb559b6c48489c5603dfe7cb12088853e2cb59363b",
+    "OC/Drivers/OpenRuntime.efi": "10f18d34d842d0b368ed1ae46f7f5b68be7f16e26f56ce42646eaebbf2a49a68",
+    "OC/Drivers/ResetNvramEntry.efi": "57fda3fd35239a655f97d1734166130dcbafbc59a16540613b26c0610bf8e439",
+    "OC/Kexts/AppleALC.kext/Contents/Info.plist": "8cbb90d3946bc65809509c698245a0eda7ce6ee58499e40ab1d0b272c0ed6ea3",
+    "OC/Kexts/AppleALC.kext/Contents/MacOS/AppleALC": "587d11228b903c2388ad9d9288c444b1bd4491817bf19db7547565966c134f37",
+    "OC/Kexts/BlueToolFixup.kext/Contents/Info.plist": "252efabf46e89bd50dcac1ecc2a35afa6e94142948ccb02e26051fa01a24d1f9",
+    "OC/Kexts/BlueToolFixup.kext/Contents/MacOS/BlueToolFixup": "6720409ff016f0835c4bc22bd59600396bfc75b596e397ff91b4abe7dc4a0612",
+    "OC/Kexts/CpuTopologyRebuild.kext/Contents/Info.plist": "b41ed91d4b8016250a0513b9756e38a4f704d010987f11cd50e5185af3d45d23",
+    "OC/Kexts/CpuTopologyRebuild.kext/Contents/MacOS/CpuTopologyRebuild": "7b7e0d1433248b2c5a7b12d153470a91621317289f08c02436c05d84b8ecee01",
+    "OC/Kexts/CpuTscSync.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+    "OC/Kexts/CpuTscSync.kext/Contents/Info.plist": "76c0260c990efc402218ce1e280aef023556cdc47d2d41f1c944c2272d6f97a1",
+    "OC/Kexts/CpuTscSync.kext/Contents/MacOS/CpuTscSync": "0ecb2a0338b6e56b2a2c20fd28f96fb3a0c68c38f8a93d11f0f3d27590213624",
+    "OC/Kexts/ECEnabler.kext/Contents/Info.plist": "88c3779139c880b0621d886eb46ad35200b5db50cd250bd70ab9b0c51a5d0586",
+    "OC/Kexts/ECEnabler.kext/Contents/MacOS/ECEnabler": "e3bc669594f59888288c83a2b38b6e9cf82a962e270a1d2bca880e13d053c8aa",
+    "OC/Kexts/IntelBluetoothFirmware.kext/Contents/Info.plist": "ef1b51f03f262d6d35bc824c869e02b607d53b76017ec521bf1452e9833ad8f4",
+    "OC/Kexts/IntelBluetoothFirmware.kext/Contents/MacOS/IntelBluetoothFirmware": "4d00ec415d8931a42af247f5e65408b08e1cd56af971abf991eaf5415e67c636",
+    "OC/Kexts/IntelBTPatcher.kext/Contents/Info.plist": "fdc14c5cf19f31e958534843c23d907fb560c6f24a4cef402bf99bf8b2045b8c",
+    "OC/Kexts/IntelBTPatcher.kext/Contents/MacOS/IntelBTPatcher": "f1863bea810478e027f7207112685f8ac1edc7733d3705f6d908064ab3fb704c",
+    "OC/Kexts/itlwm.kext/Contents/Info.plist": "abcc5643a977818a90f1be8b74cd113ee6ba362300fc92d845f5c2b6d91f5ee2",
+    "OC/Kexts/itlwm.kext/Contents/MacOS/itlwm": "a6e3c4bb639ff3c393b7a47e50e35224ae4455519ce9d15a551a2337dd16d66c",
+    "OC/Kexts/Lilu.kext/Contents/Info.plist": "98b2f77e2c710b93a6260561eb2a98eca0373962ffa7db29d8b2fe8df9d0e17c",
+    "OC/Kexts/Lilu.kext/Contents/MacOS/Lilu": "f68f6e2dceb2afff375eabb483680cac4425a3700f1ff36107dc274fa450635a",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/capstone/arm.h": "c5f8f576325a4693433a8553f0cf60da7e184fdc3cf4d69565b8f6da6a266290",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/capstone/arm64.h": "ea5125a4d828414198689d96bfacbaedd781d105d3c9121e1c1313ada9240ab8",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/capstone/capstone.h": "f26d73232fdda42951c29bda223668fa7909ded7ae641bec6645af77194fe340",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/capstone/mips.h": "6c36467a1425085a04ce68fbf6dac36c66523a5f47ebb78dd34c7975517d2548",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/capstone/platform.h": "dfa36d15d3ab16c2c3e7760c9c05974b724161ad77bf4c59a673b95cafc7ed68",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/capstone/ppc.h": "ecd2185d16bba8e8bf273e0b27b89b55c2716e0ee809a24aa5f32ca9138892dd",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/capstone/sparc.h": "60abc023878586ef923a79461f48dfc0622ac016d5e216f2be27aab46eea72ce",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/capstone/systemz.h": "951a1e4c64ce2ff0f4d88d698c715ca0e84426d19c405be6d89129aaab3071eb",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/capstone/x86.h": "85744ad3f5e752e8e0cd970e9a4f8db7293560e3e22717a29bb4ad017a0b1dc7",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/capstone/xcore.h": "9fd8224a36744e62418af5a4868b05d1ae693741a7e15e2f0e018e56ad57b734",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/hde32.h": "d0dbf2065ab9d864697afb3603586ba047ae00461fd5f5150aec419c1dd54f6e",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/hde64.h": "109319ff7ab6b135708fb4ff7d20a7cef4eb30cd4c2048cf8090caaadb53bb1a",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_api.hpp": "68704ec79a8829981634b543f08f86bec3c5a3d91fdb4c11318c2fcaeb827be2",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_compat.hpp": "87e70a3912ae13187b48307829aa42455d7fbb8ab00c9bdac46706998e0b81b7",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_compression.hpp": "b1f0e145910d81a9e822f6242e2a0efbabe2c22aa28f01a69162810087174558",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_config.hpp": "e984014182ba3170d7906d8775d09fd522d87de89dcf01bc7d34fc53e0e23f00",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_cpu.hpp": "8e7df4f1bf701286bf1d6959c1b6ecdce29e59477a4eaf845de5aae2e6a3e078",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_crypto.hpp": "a99b82462d453eef39a2010017045c4182217e7196a577674c9aaa375eb700c0",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_devinfo.hpp": "7208b99588824e149182dba8af9a5e076937046be22d74791eea0b3b13ad8d64",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_disasm.hpp": "6f86eaa09bb848d711a12b57d141e2047730634b5ae2c721b58ea620daf5ad65",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_efi.hpp": "980566fbe0f8f2e21703511c9672bf8345a739033cfa1dbf6de1b0d87e44086d",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_file.hpp": "39e8eee93410b0360ad56a442b7100b4bbf0bfeac3a33c019ddb2b9e77433233",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_iokit.hpp": "c54358d4c0584a812f864898fb90582c1485ceb95bd5ed408aaf8423c8717b52",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_mach.hpp": "3a320f081953594cce85307e24ee1e246679993266ad5eda2598140f36a5ad29",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_nvram.hpp": "925aa4d669ecc2647fb81d34b3666780a6b1e19c72541c5272f86b59f2da36de",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_patcher.hpp": "27461a4f6b2ec7f37205d23e15f25fc2581fd5835694615dd01ed0829a3f4ce1",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_policy.hpp": "3b436d7ab9b1c3de72a26a27205370933a6bd26cc69010b7dc76c30e694a9c96",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_rtc.hpp": "f3db7a2272cb5ccc90a0ff20ed7215fef715bca16e4504d5421630a003632dfb",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_time.hpp": "4b5ebfb2ac896dfd62182c84800bc9e58b8d2b558d51994eb2f967b594303f1f",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_user.hpp": "3b46cba8b6cf988dce98d09672d011c82e6716b03ae67fe4aa2b0ceff9564b5c",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_util.hpp": "694d19d4f94b0338dc4b75dc5ebd98de5a5e4946cbbc96387224eee405f684da",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/kern_version.hpp": "d24303fe6ecd4a13c1acddfe7dbc2359110fb9437c59fbbdff3bd4cc071a052b",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Headers/plugin_start.hpp": "9613e8a95fc8340a128b2f6248c423e2b63ac8bc4935918800156b76aa8b78bf",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Library/plugin_start.cpp": "9ebc54138b05bebc86d78479209f3a6fdafedeb5b732be190cc449b6b82e6ebf",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Library/wrappers/build.tool": "23091a95cfebddd1412d4291f43731c468f6266bb86ffaad0ff691807c81524f",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Library/wrappers/entry32.S": "dcd9d71118c5a7fc245f881c40b8805120a6853e971db662af0ba01b12af5c47",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Library/wrappers/entry64.S": "dd5bba4db12fb13e78b3934209a52005f71a23d20a05a2b5ad336bc70898f457",
+    "OC/Kexts/Lilu.kext/Contents/Resources/Library/wrappers/wrappers.inc": "152abd67ea6221731417596b4f8294e264b79952796bc031a24a190b75a46410",
+    "OC/Kexts/NVMeFix.kext/Contents/Info.plist": "10fa716eb7504b67baff68dc22d9f5d720f7e8b2f0266e7c14742d41a8f2cdb9",
+    "OC/Kexts/NVMeFix.kext/Contents/MacOS/NVMeFix": "c1f14a073aa937061f8cb8d99cee58dee6afacba3506c0b5380cb49c62cff18f",
+    "OC/Kexts/RealtekRTL8111.kext/Contents/Info.plist": "2db9a7dfaffb99f6da1f979f0ba9c5a306b46bedc177459dfeb2f369c51de44b",
+    "OC/Kexts/RealtekRTL8111.kext/Contents/MacOS/RealtekRTL8111": "d476b56689a2868a90e740e1860617ea68c379ad2bff9fa219cd91855e69d96b",
+    "OC/Kexts/RealtekRTL8111.kext/Contents/Resources/en.lproj/InfoPlist.strings": "39cf2ee07b7b333e7c179d0bf4d798a5b72af6a4e584f51e642703bbfa4fc828",
+    "OC/Kexts/RestrictEvents.kext/Contents/Info.plist": "7aae1218a4554f960b61463ce68645aa3ada9638c8f8c2ff9abac1ebb8649eff",
+    "OC/Kexts/RestrictEvents.kext/Contents/MacOS/RestrictEvents": "f1da671c915c47cb430c9d13a4d97ae7201f580d3f2a5753a990bd57882185ab",
+    "OC/Kexts/SMCBatteryManager.kext/Contents/Info.plist": "49ecc1ed3962085366ee97b39b302482031ffa6797931c989b8ebbd63c95f2e9",
+    "OC/Kexts/SMCBatteryManager.kext/Contents/MacOS/SMCBatteryManager": "13cba096fca0820a5755ddad34fa03d9f98c0d703d558e189cb3f18e7fb339a0",
+    "OC/Kexts/SMCBatteryManager.kext/Contents/Resources/SSDT-BATC.dsl": "e66bbd57e5c6ef0ddbc3a6e51f68fe875d84709b73d4772e1c193269f2a89e4b",
+    "OC/Kexts/SMCLightSensor.kext/Contents/Info.plist": "7e6752bede0ff1614aad629460c201a2c5eea8546781c65e7f096ac88006e4a9",
+    "OC/Kexts/SMCLightSensor.kext/Contents/MacOS/SMCLightSensor": "4eb181b3810ef610236ca2fe7c4e4fa4bb7e38804010afbb61a24736af150a4b",
+    "OC/Kexts/SMCProcessor.kext/Contents/Info.plist": "bd2ef60ece279dda7ba43b1e2b070084bc966ecf901229f22e0af6c3daeddc3e",
+    "OC/Kexts/SMCProcessor.kext/Contents/MacOS/SMCProcessor": "2e30a0cc6e1b55947c5ec760a0622041fce8fe39a14ac4a865f4f4a86a59f88b",
+    "OC/Kexts/SMCSuperIO.kext/Contents/Info.plist": "7bd50db73f74819dc354f8c094e43c53ed6ae0a9f7a92af34756bb341b4710d7",
+    "OC/Kexts/SMCSuperIO.kext/Contents/MacOS/SMCSuperIO": "7477349367de2935794eca0f670724499ac408d8cda530d790fff395f7d9d67b",
+    "OC/Kexts/USBToolBox.kext/Contents/Info.plist": "b294a7d9abd45ba5ceb0895f296d4ff7b092635b824dbafa66866d686b13c8e1",
+    "OC/Kexts/USBToolBox.kext/Contents/MacOS/USBToolBox": "8336f25b03de2dc1d6ca6550483f845b346c83db8e5bb0a400dce92fbcfbc18b",
+    "OC/Kexts/UTBMap.kext/Contents/Info.plist": "801a9a5db3febf36725eb12cfcf40f25128ec58fece40234f0362f9bc7c5b8e9",
+    "OC/Kexts/VirtualSMC.kext/Contents/Info.plist": "632c007a05dc17be658e3e8df809c47b8f2b61d3a6200c81a1f8a1f20ca2ad13",
+    "OC/Kexts/VirtualSMC.kext/Contents/MacOS/VirtualSMC": "545ac34a3b4b935ea9092cc508d0789e5fadae06d2ab4e9eabd1a387e3c06ae7",
+    "OC/Kexts/VirtualSMC.kext/Contents/Resources/VirtualSMCSDK/AppleSmc.h": "c0493d157cdd000851a5c511327bd27e65036f0947a81c5b10e874b1901af199",
+    "OC/Kexts/VirtualSMC.kext/Contents/Resources/VirtualSMCSDK/AppleSmcBridge.hpp": "f4ee65d0d8c10eba924366deec2ad35bb1902c2c75e222c6ef11b911d019574e",
+    "OC/Kexts/VirtualSMC.kext/Contents/Resources/VirtualSMCSDK/kern_keyvalue.hpp": "a600e29456f415b0d34de6b60a65253795ec83133107b54fe1a49631a08a0237",
+    "OC/Kexts/VirtualSMC.kext/Contents/Resources/VirtualSMCSDK/kern_smcinfo.hpp": "fae13b040ea92fccb9763e8b282fc830c2009e4e64ab107316da9e0ef2299bfb",
+    "OC/Kexts/VirtualSMC.kext/Contents/Resources/VirtualSMCSDK/kern_value.hpp": "5e6fc1f3daf377ca7d631a736ac17d1dd9f12a31ae09e981f2cd0b798292056a",
+    "OC/Kexts/VirtualSMC.kext/Contents/Resources/VirtualSMCSDK/kern_vsmcapi.hpp": "84f6cf176db2820dfad9ce2c6ebe8c01ca7c6ff6beb8b378e7287170cf3d8c12",
+    "OC/Kexts/VoodooI2C-RPL-GPIO.kext/Contents/Info.plist": "4edb9fafb5cd864eb645487e67f0cbf17dcb89e7bbe1601c3ea3b5c72b114c7a",
+    "OC/Kexts/VoodooI2C-RPL-GPIO.kext/Contents/MacOS/VoodooI2C": "78213b539c31a158bd3fce3fea7bf0da8380c442a94f2b13ddd91d43717c9037",
+    "OC/Kexts/VoodooI2C-RPL-GPIO.kext/Contents/PlugIns/VoodooGPIO.kext/Contents/Info.plist": "b342ba337430de5aa3d484fa297cd34733e3f71a6302258f1a5401f5809b308b",
+    "OC/Kexts/VoodooI2C-RPL-GPIO.kext/Contents/PlugIns/VoodooGPIO.kext/Contents/MacOS/VoodooGPIO": "4289f5d5b4a13c9c8420a164cf5390a5bd968ac570cd05342049fd685adfdf56",
+    "OC/Kexts/VoodooI2C-RPL-GPIO.kext/Contents/PlugIns/VoodooI2CServices.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+    "OC/Kexts/VoodooI2C-RPL-GPIO.kext/Contents/PlugIns/VoodooI2CServices.kext/Contents/Info.plist": "d2673dc757b113df1df0ef1c8a218d80b9c5aef6abe5f515a64787a8cd10cc66",
+    "OC/Kexts/VoodooI2C-RPL-GPIO.kext/Contents/PlugIns/VoodooI2CServices.kext/Contents/MacOS/VoodooI2CServices": "20c1544ab48ea9fdfb3498436e23d76f11d309d5adcdc8a4da35f8e4be7945f5",
+    "OC/Kexts/VoodooI2C-RPL-GPIO.kext/Contents/PlugIns/VoodooInput.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+    "OC/Kexts/VoodooI2C-RPL-GPIO.kext/Contents/PlugIns/VoodooInput.kext/Contents/Info.plist": "8eb279b036ced4bc790132d5839322b97f62d0a91f334092e6a098d7fed43f37",
+    "OC/Kexts/VoodooI2C-RPL-GPIO.kext/Contents/PlugIns/VoodooInput.kext/Contents/MacOS/VoodooInput": "fbdd452f575139cd32c56a4b059b794be884262fb8e335d469dd4bfe4004853f",
+    "OC/Kexts/VoodooI2CHID.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+    "OC/Kexts/VoodooI2CHID.kext/Contents/Info.plist": "5c9e6eea43bcfb48740a860b6a622579b7b837afe93825d093b38c3be206c807",
+    "OC/Kexts/VoodooI2CHID.kext/Contents/MacOS/VoodooI2CHID": "65975f7018ef10e2f058f46492f52fe49a5e5e2680dc7cf66af12b167f1d7f0a",
+    "OC/Kexts/VoodooPS2Controller.kext/Contents/Info.plist": "efd52cefc719c8b02cd79586373f6ff9ddb5ba3c6d868badb7bdc5661a7eedae",
+    "OC/Kexts/VoodooPS2Controller.kext/Contents/MacOS/VoodooPS2Controller": "544a07108cc373c888ba74e3eae911317194b4f546855b71e5464bc1e2eadddf",
+    "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+    "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/Info.plist": "4b613689d908142e19554ffd6a1524dc029ba4e0f3cc2b6a0e03d9d82777264d",
+    "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/MacOS/VoodooInput": "73e7b4ff9133601ee01312fb4e5bd0f62b10bcbf7de477fd68929ca3cd9320ab",
+    "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/Info.plist": "a6be92bf43672c41ba33e5ccc88a1bea7500fc4a9b90f610373973c42457367b",
+    "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/MacOS/VoodooPS2Keyboard": "a1e4903278b2028da9fea8feeb911026fb029ed8164d947bd7481245ae86193b",
+    "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext/Contents/Info.plist": "f38bc6fc7971523aa7c23e43536cc5b5ed8bc9a49c729673bab9b136634ef294",
+    "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext/Contents/MacOS/VoodooPS2Mouse": "075be10067839c38366da4f8864a87506e0c5d0305f98e540cd30e6da9adacab",
+    "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext/Contents/Info.plist": "0085ac2f31668cc074a2eb984174b7e787029d044be3ac17003b0e4de8df36d7",
+    "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext/Contents/MacOS/VoodooPS2Trackpad": "e42cd2f68ee472829051b1c1f2b503c6db33c006ee4035e5698d104fe3c20049",
+    "OC/Kexts/WhateverGreen.kext/Contents/Info.plist": "cbee98bfbd285dae338ea7187b580d13ccc05a76a8babc3768ba6df203905c4a",
+    "OC/Kexts/WhateverGreen.kext/Contents/MacOS/WhateverGreen": "57446350ff9d4f3f35e3258c5400f00a983b58ed9b5253cb126bbe64aa10f4ba",
+    "OC/Kexts/YogaSMC.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+    "OC/Kexts/YogaSMC.kext/Contents/Info.plist": "40e1ec2f9fdf0d5d3ebe6a8ab15a45a53cb32cabbbef71a48258fe9c5e67d5c2",
+    "OC/Kexts/YogaSMC.kext/Contents/MacOS/YogaSMC": "073736c22b66e9bfee30ab159e53227a004ec507a043042c4c3e03baaf642e6e",
+    "OC/OpenCore.efi": "62e41c658c8c20ff18d4f4c79153f0a6e3cc604876891f9651ddf9b8825b207c",
+    "OC/Resources/Font/Font_1x.bin": "5c25792248d6d2d6e538ab795d05cdc96cb871ca28fe38fa040ff98fec624e95",
+    "OC/Resources/Font/Font_1x.png": "702a639bdef7cf93d6145d08af7a8092c4707c08cfba3769253f1c0bb19b1b94",
+    "OC/Resources/Font/Font_2x.bin": "b36ad2b2dcdde146759452d2514b7f7800b9c6898fa284566965d69f611bb188",
+    "OC/Resources/Font/Font_2x.png": "4fb45cd7c411a0fa2fca0ea4c1fc2a0130f8af0bcdc71274ec80fbb19f14ac4e",
+    "OC/Resources/Font/Terminus.hex": "b735876e698c5bf1ee3445efafd87d834b5fb68e40788f477bcbd8bc7ce0086d",
+    "OC/Resources/Font/TerminusCore.hex": "564b9c0dabfb1f70f557b510161b489a287f75c8e5787351329347b5448a484b",
+    "OC/Resources/Image/Acidanthera/GoldenGate/Apple.icns": "10037da202bbf63fa02c65151010af459fc455c20908089988da810aa2fde550",
+    "OC/Resources/Image/Acidanthera/GoldenGate/AppleRecv.icns": "e1b644cd61ef6a110b2e05c97f0314e3710f12dc290f4caa80af1c24c0c78ded",
+    "OC/Resources/Image/Acidanthera/GoldenGate/AppleTM.icns": "e1b644cd61ef6a110b2e05c97f0314e3710f12dc290f4caa80af1c24c0c78ded",
+    "OC/Resources/Image/Acidanthera/GoldenGate/BtnFocus.icns": "f5270508a7948b5d9bbb186e1c61a36f9d96f3a309835a8ad455df5c634bb63c",
+    "OC/Resources/Image/Acidanthera/GoldenGate/Cursor.icns": "4cc9ed67f43c9dd53cec1d162653cb5f3548deb277221ab597e91f1047d23cb1",
+    "OC/Resources/Image/Acidanthera/GoldenGate/Dot.icns": "16058f2fc565f001f01d089ae88bb840d757ec1085c84c85220e187233175857",
+    "OC/Resources/Image/Acidanthera/GoldenGate/Enter.icns": "88d1dfbdc0b39d92b42953502024ff77e2360da3a11f91407c41961ec0a5a042",
+    "OC/Resources/Image/Acidanthera/GoldenGate/ExtAppleRecv.icns": "d3bd75b70b60b8988ea613d882bf5aecef1b7529e1ac379694f5fb6dba8c9898",
+    "OC/Resources/Image/Acidanthera/GoldenGate/ExtAppleTM.icns": "d3bd75b70b60b8988ea613d882bf5aecef1b7529e1ac379694f5fb6dba8c9898",
+    "OC/Resources/Image/Acidanthera/GoldenGate/ExtHardDrive.icns": "e76bb9138b21ad73edeea5c23ea32c2fc76089176d44dc5eddeefb21baaec979",
+    "OC/Resources/Image/Acidanthera/GoldenGate/HardDrive.icns": "ed3ab8b7dcd4503f908928633dc37fee03ee7d7b1f05380d0ec632efc41890e4",
+    "OC/Resources/Image/Acidanthera/GoldenGate/Left.icns": "4b6cd4f08184c8cb7096ba0baf5636f17a383d9c7ce13843992e1fe5d6f5f4ac",
+    "OC/Resources/Image/Acidanthera/GoldenGate/Linux.icns": "211b01c1a532b3c1a515f77f42b282d817ab39f98d9c69c3d3707dc29c3f30ea",
+    "OC/Resources/Image/Acidanthera/GoldenGate/Lock.icns": "8fd71c7da13d48b611654399b4d3c2514c49814156f4a33b395668511bce4f39",
+    "OC/Resources/Image/Acidanthera/GoldenGate/Password.icns": "1442ab7e84aabe19725e0823154ec27bde0a0ef7551fa14bc7a85d9421464cef",
+    "OC/Resources/Image/Acidanthera/GoldenGate/ResetNVRAM.icns": "937e71e269f89fdbaa60f81de4117e9b2b71de76496e395f5afd4db6ffcef47e",
+    "OC/Resources/Image/Acidanthera/GoldenGate/Restart.icns": "b6ddf5b9c3f3082b767c74538f535cb898bfce033a40d0fb3622bb741a4f956c",
+    "OC/Resources/Image/Acidanthera/GoldenGate/Right.icns": "687f94c6416046c84497c8044dd82387a0bca425c048f190c7ae5b7a0bf9c922",
+    "OC/Resources/Image/Acidanthera/GoldenGate/Selected.icns": "bb2ad2a4a0a8e7cf485c76ed2d81c0bf3df47213175071b3a03def78c39162cb",
+    "OC/Resources/Image/Acidanthera/GoldenGate/Selected_Alt.icns": "bb2ad2a4a0a8e7cf485c76ed2d81c0bf3df47213175071b3a03def78c39162cb",
+    "OC/Resources/Image/Acidanthera/GoldenGate/Selector.icns": "2b3fd43f42ee6a6863367504c2dafff66359ce2ae205b5fbc77a60c524ac6880",
+    "OC/Resources/Image/Acidanthera/GoldenGate/SetDefault.icns": "10f0e5ed2750f87594a0aeeb3978e402ffd3ad6478e0482c925750d29f193d8c",
+    "OC/Resources/Image/Acidanthera/GoldenGate/Shell.icns": "f4f13ce199567fa1c75edf2d3e9a8f1e78e73ab5f3e33c25dd403792f2048a1a",
+    "OC/Resources/Image/Acidanthera/GoldenGate/ShutDown.icns": "7c8253c718c3be6309f7d6dbbdf93e7ba768b9f3ec9c00f9cfece83e543a8872",
+    "OC/Resources/Image/Acidanthera/GoldenGate/ToggleSip.icns": "b5e6db05a99f3cdfc9d1b7d52a9b30b754d9e75a4d92ea47fb25ea66727640fb",
+    "OC/Resources/Image/Acidanthera/GoldenGate/Tool.icns": "e8d6caa479e0f67dc67b58f0b58a5922c167e5a6613ba95982ba4feb19aec9d3",
+    "OC/Resources/Image/Acidanthera/GoldenGate/Windows-11.icns": "1bfff1ee4638283298e3d115318d30a00437ecc77333db12d1518a0e16f16996",
+    "OC/Resources/Image/Acidanthera/GoldenGate/Windows.icns": "af4cd2a1c356515cc362f1d98d66c171b0f34c8569e1246ec03e4041cc7dee90",
+    "OC/Resources/Label/Apple.l2x": "6aa42eb95f29e079d9c8cc3d0f7389e86bb2687a22d8b1f998e4cc887b0ff01d",
+    "OC/Resources/Label/Apple.lbl": "05ebabf70939c3192689dd8e10ed67ee126bef9b0011a11b8a5b1fb6cb07b159",
+    "OC/Resources/Label/AppleRecv.l2x": "e392929ade151bd3a9aa1be5af3172cd8b62ea4d5a71d0f5d23284eeed4b068c",
+    "OC/Resources/Label/AppleRecv.lbl": "64d97c131c4898e9658dcaed6f41d18fdc99c2f3ce57b6c17fe51582ad6ab8dc",
+    "OC/Resources/Label/AppleTM.l2x": "be554bcb496358e27afc22c104a8b7b53b278b7cd235048b032de0ac9bf715e7",
+    "OC/Resources/Label/AppleTM.lbl": "14740dfb9ae756da0bbe711849698e4ffadce1af579b4acf8782f4148a9a76d0",
+    "OC/Resources/Label/EFIBoot.l2x": "b54ab5ad6efaa91faaad7548f5123c6e7a8259f967016b469e10e0093838219e",
+    "OC/Resources/Label/EFIBoot.lbl": "65ccb5c20f0d66a66651a710872e8a907d7d41b7049c647d620bcad2ca8e35b0",
+    "OC/Resources/Label/FirmwareSettings.l2x": "b394d10906753ac6b4b2093a3faa910f47c63b66a75d158af7c9b4bc5bb44f7d",
+    "OC/Resources/Label/FirmwareSettings.lbl": "684cf28697853dde9a7b0dd808abdf9f3a1addc92cd18bd7cfc967ef2cf2e1e0",
+    "OC/Resources/Label/Other.l2x": "6d3a2a558fee3182b56d92112978d6df263fafc5088bfbcab4cc487e5a91bcf1",
+    "OC/Resources/Label/Other.lbl": "9aa2273bf7f99fbabc7ee9040c5ce8990945c092f8431611aa572616827f7fca",
+    "OC/Resources/Label/ResetNVRAM.l2x": "85830a7a31ec8e232bb894d15a56f58211982c3f675a3eb6fe8190f403000643",
+    "OC/Resources/Label/ResetNVRAM.lbl": "c7f13025cc256d057a0262a080ec0ed933fff720218bbf47c8762f2fe4350098",
+    "OC/Resources/Label/Shell.l2x": "88bfe376d4d3efcc1ae36875b7ae0dc1fdf27f7a3c2d859b0b8a5f87f63ad1bf",
+    "OC/Resources/Label/Shell.lbl": "ef2b6cd9fc4e11c3ed558555fcfbe9fb3377fd5d87212ceb5e1dc1fa945e0445",
+    "OC/Resources/Label/SIPDisabled.l2x": "49eeda24c9b7b6253186331f9c3eff8bbab7287dbba0caa1b8cd57df10af4318",
+    "OC/Resources/Label/SIPDisabled.lbl": "4b15858879b7e012719cfd8b70928db011464d7482116b948f48c9b7b5b033a4",
+    "OC/Resources/Label/SIPEnabled.l2x": "f22ce9288f8859aa0ce7609e4e20d36c3129fa580056a1c7a783aa65bb900430",
+    "OC/Resources/Label/SIPEnabled.lbl": "5055101c0062c6111a5348ebefc167406050c86ca07c51880dd25879d531be57",
+    "OC/Resources/Label/Tool.l2x": "2fd447ae24b4c1b43a631f5a116a1b5a59c58f49959fce4c5fed7e774f07bf24",
+    "OC/Resources/Label/Tool.lbl": "8009b579c70b91f032912694dd25da86bde6c194df1765914d099d8d8e4e7b35",
+    "OC/Resources/Label/Windows.l2x": "c64885a9f5b7717321a49927de98f14d19cbb7ae121a1d0f9f62d7d74daf43e0",
+    "OC/Resources/Label/Windows.lbl": "a19afffbcff69562165a6ec37125f07b140dc58f0f14d1522c326c5cab3c09b3",
+    "OC/Tools/NullMothSafe.efi": "8d488d496d04ca2e86ebe6e1ae5e4346e7300f61e94241c620f9a34bbeea6cdf",
+    "OC/Tools/OpenShell.efi": "df9c3714218fce5a302c711c23519e0ab994c40ce1d432e3517066d67b4d8290",
+    "OC/Tools/startup.nsh": "4bf011375a08ac896b4787e90d23a2fccc9a38f9d886286e427f74f128201d10"
+  },
+  "gpus": [
+    {
+      "id": "10DE-28E0",
+      "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "rebar": "Disabled",
+      "type": "Discrete GPU",
+      "vendor": "NVIDIA"
+    }
+  ],
+  "hardware": {
+    "BIOS": {
+      "Firmware Type": "UEFI",
+      "Version": "N0CN35WW"
+    },
+    "Bluetooth": [
+      {
+        "Bus Type": "USB",
+        "Device ID": "8087-0033",
+        "name": "Intel(R) Wireless Bluetooth(R)"
+      }
+    ],
+    "CPU": {
+      "CPU Count": "01",
+      "Codename": "Raptor Lake-HX",
+      "Core Count": "24",
+      "Manufacturer": "Intel",
+      "Processor Name": "Intel(R) Core(TM) i9-14900HX"
+    },
+    "GPU": [
+      {
+        "ACPI Path": "\\_SB.PC00.PEG1.PEGP",
+        "Codename": "NullMoth driver",
+        "Device ID": "10DE-28E0",
+        "Device Type": "Discrete GPU",
+        "Manufacturer": "NVIDIA",
+        "PCI Path": "PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)",
+        "Resizable BAR": "Disabled",
+        "Subsystem ID": "3CF217AA",
+        "name": "NVIDIA GeForce RTX 4060 Laptop GPU"
+      }
+    ],
+    "Input": [
+      {
+        "Bus Type": "ACPI",
+        "name": "HID-compliant touch pad"
+      },
+      {
+        "Bus Type": "USB",
+        "Device ID": "03F0-0B92",
+        "name": "USB Input Device"
+      },
+      {
+        "Bus Type": "USB",
+        "Device ID": "046D-C35B",
+        "name": "USB Input Device_#1"
+      },
+      {
+        "Bus Type": "USB",
+        "Device ID": "046D-C54D",
+        "name": "USB Input Device_#2"
+      },
+      {
+        "Bus Type": "USB",
+        "Device ID": "048D-C105",
+        "name": "USB Input Device_#3"
+      },
+      {
+        "Bus Type": "USB",
+        "Device ID": "046D-C232",
+        "name": "Gaming Virtual Keyboard"
+      },
+      {
+        "Bus Type": "USB",
+        "name": "HID Keyboard Device"
+      },
+      {
+        "Bus Type": "ACPI",
+        "name": "Standard PS/2 Keyboard"
+      }
+    ],
+    "Monitor": [
+      {
+        "Connected GPU": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "Connector Type": "eDP",
+        "name": "BOE0C1D"
+      },
+      {
+        "Connected GPU": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "Connector Type": "DP",
+        "name": "MAG 274QF X32"
+      }
+    ],
+    "Motherboard": {
+      "Chipset": "HM770",
+      "Name": "LENOVO LNVNB161216",
+      "Platform": "Laptop"
+    },
+    "Network": [
+      {
+        "ACPI Path": "\\_SB.PC00.RP22.PXSX",
+        "Bus Type": "PCI",
+        "Device ID": "10EC-8168",
+        "PCI Path": "PciRoot(0x0)/Pci(0x1b,0x5)/Pci(0x0,0x0)",
+        "Subsystem ID": "396517AA",
+        "name": "Realtek PCIe GbE Family Controller"
+      },
+      {
+        "ACPI Path": "\\_SB.PC00.CNVW",
+        "Bus Type": "PCI",
+        "Device ID": "8086-7A70",
+        "PCI Path": "PciRoot(0x0)/Pci(0x14,0x3)",
+        "Subsystem ID": "00948086",
+        "name": "Intel(R) Wi-Fi 6E AX211 160MHz"
+      }
+    ],
+    "Sound": [
+      {
+        "Bus Type": "INTELAUDIO",
+        "Device ID": "10EC-0257",
+        "Subsystem ID": "17AA3C22",
+        "name": "Realtek(R) Audio"
+      },
+      {
+        "Bus Type": "USB",
+        "Device ID": "03F0-0B92",
+        "name": "HyperX Virtual Surround Sound"
+      },
+      {
+        "Bus Type": "HDAUDIO",
+        "Device ID": "10DE-00A7",
+        "Subsystem ID": "FFFFFFFF",
+        "name": "NVIDIA High Definition Audio"
+      }
+    ],
+    "Storage Controllers": [
+      {
+        "ACPI Path": "\\_SB.PC00.RP13.PXSX",
+        "Bus Type": "PCI",
+        "Device ID": "15B7-5011",
+        "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x4)/Pci(0x0,0x0)",
+        "Subsystem ID": "501115B7",
+        "name": "WD PC SN810 / Black SN850 NVMe SSD"
+      },
+      {
+        "ACPI Path": "\\_SB.PC00.PEG0.PEGP",
+        "Bus Type": "PCI",
+        "Device ID": "144D-A80A",
+        "PCI Path": "PciRoot(0x0)/Pci(0x6,0x0)/Pci(0x0,0x0)",
+        "Subsystem ID": "A801144D",
+        "name": "NVMe SSD Controller PM9A1/PM9A3/980PRO"
+      }
+    ],
+    "USB Controllers": [
+      {
+        "ACPI Path": "\\_SB.PC00.XHCI",
+        "Bus Type": "PCI",
+        "Device ID": "8086-7A60",
+        "PCI Path": "PciRoot(0x0)/Pci(0x14,0x0)",
+        "Subsystem ID": "380517AA",
+        "name": "Intel(R) USB 3.20 eXtensible Host Controller - 1.20 (Microsoft)"
+      }
+    ],
+    "not_observed": [
+      "USB port-to-connector routing",
+      "BIOS setup options",
+      "GPU BAR/VRAM size",
+      "CPUID leaves",
+      "fan and RGB wiring"
+    ]
+  },
+  "identity_status": "public_placeholder_not_boot_ready",
+  "macos_version": "24.99.99",
+  "platform": "Laptop",
+  "qualification": {
+    "boot": "unverified",
+    "fan_control": "not_assessed",
+    "graphics": "unverified",
+    "network": "unverified",
+    "rgb_control": "not_assessed",
+    "usb_ports": "mapping_required"
+  },
+  "scan_sha256": "679e323aaba11173beb2faa2b43c80e45b93767aa8987f1ef7c8827d77457e8b",
+  "schema": 2,
+  "smbios": "MacBookPro16,2",
+  "snapshot_label": "Kayn",
+  "snapshot_date": "2026-10-12"
+}
